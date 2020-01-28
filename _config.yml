@@ -1,1 +1,42 @@
-theme: jekyll-theme-minimal
+## Site Meta ##
+# The title of the website.
+title: "Aidé Cabrera - GDG Wondercoders"
+# The description of the website
+description: "Impulsando más mujeres en tecnología"
+# Keywords/tags for you site.
+keywords: "women in tech, it, women, diversity, technology, google, wtm"
+# Your copyright message.
+copyright: "Copyright &copy; 2020 - 🐾"
+
+## Site Configurations ##
+# 1st heading of the site.
+header: "Aidé Cabrera"
+# 2nd heading/sub heading of the website.
+subheader: "GDG Wondercoders"
+# A description/bio of the website.
+bio: "4+ años impulsando más mujeres en tecnología | Women Techmakers ambassador"
+social:
+  # Your Twitter username.
+  twitter_username: "tzmli"
+  # Your Facebook username.
+  facebook_username: "https://www.facebook.com/hayde.tzmli"
+  # Your Instagram username.
+  instagram_username: ""
+  # GitHub username.
+  github_username: "Tzmli"
+  # Your email address.
+  email: "aide.wondercoders@gmail.com"
+
+## Gallery Configuration ##
+# If you modify this, also modify the `default.scope.path` key below.
+gallery_dir: "gallery"
+# Any valid value of "background-position" CSS attribute.
+image_position: "left center"
+
+## Jekyll Configuration ##
+defaults:
+ - scope:
+    # Should be same as the `gallery_dir` key above.
+    path: "gallery"
+   values:
+    image: true
